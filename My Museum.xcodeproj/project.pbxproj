@@ -14,6 +14,7 @@
 		9A60C9C11A68DCF600532FF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A60C9C01A68DCF600532FF3 /* Images.xcassets */; };
 		9A60C9C41A68DCF600532FF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A60C9C21A68DCF600532FF3 /* LaunchScreen.xib */; };
 		9A60C9D01A68DCF600532FF3 /* My_MuseumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9CF1A68DCF600532FF3 /* My_MuseumTests.m */; };
+		9A8BCBE11A6B7C4C00138DC1 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8BCBE01A6B7C4C00138DC1 /* white.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		9A60C9C91A68DCF600532FF3 /* My MuseumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My MuseumTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A60C9CE1A68DCF600532FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A60C9CF1A68DCF600532FF3 /* My_MuseumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_MuseumTests.m; sourceTree = "<group>"; };
+		9A8BCBE01A6B7C4C00138DC1 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				9A60C9B41A68DCF600532FF3 /* Info.plist */,
+				9A8BCBE01A6B7C4C00138DC1 /* white.png */,
 				9A60C9B51A68DCF600532FF3 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A60C9BF1A68DCF600532FF3 /* Main.storyboard in Resources */,
+				9A8BCBE11A6B7C4C00138DC1 /* white.png in Resources */,
 				9A60C9C41A68DCF600532FF3 /* LaunchScreen.xib in Resources */,
 				9A60C9C11A68DCF600532FF3 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				9A60C9D51A68DCF600532FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A60C9D61A68DCF600532FF3 /* Build configuration list for PBXNativeTarget "My MuseumTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				9A60C9D81A68DCF600532FF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
