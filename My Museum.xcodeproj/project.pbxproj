@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0E0FB51A71DF5200D17A91 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E0FB41A71DF5200D17A91 /* ViewController3.m */; };
+		9A3A08321A70AEDD00E6AA53 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A08311A70AEDD00E6AA53 /* ViewController2.m */; };
 		9A60C9B61A68DCF600532FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9B51A68DCF600532FF3 /* main.m */; };
 		9A60C9B91A68DCF600532FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9B81A68DCF600532FF3 /* AppDelegate.m */; };
 		9A60C9BC1A68DCF600532FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9BB1A68DCF600532FF3 /* ViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A0E0FB31A71DF5200D17A91 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		9A0E0FB41A71DF5200D17A91 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		9A3A08301A70AEDD00E6AA53 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		9A3A08311A70AEDD00E6AA53 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		9A60C9B01A68DCF600532FF3 /* My Museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Museum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A60C9B41A68DCF600532FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A60C9B51A68DCF600532FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,6 +93,10 @@
 				9A60C9B81A68DCF600532FF3 /* AppDelegate.m */,
 				9A60C9BA1A68DCF600532FF3 /* ViewController.h */,
 				9A60C9BB1A68DCF600532FF3 /* ViewController.m */,
+				9A3A08301A70AEDD00E6AA53 /* ViewController2.h */,
+				9A3A08311A70AEDD00E6AA53 /* ViewController2.m */,
+				9A0E0FB31A71DF5200D17A91 /* ViewController3.h */,
+				9A0E0FB41A71DF5200D17A91 /* ViewController3.m */,
 				9A60C9BD1A68DCF600532FF3 /* Main.storyboard */,
 				9A60C9C01A68DCF600532FF3 /* Images.xcassets */,
 				9A60C9C21A68DCF600532FF3 /* LaunchScreen.xib */,
@@ -224,8 +234,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A60C9BC1A68DCF600532FF3 /* ViewController.m in Sources */,
+				9A3A08321A70AEDD00E6AA53 /* ViewController2.m in Sources */,
 				9A60C9B91A68DCF600532FF3 /* AppDelegate.m in Sources */,
 				9A60C9B61A68DCF600532FF3 /* main.m in Sources */,
+				9A0E0FB51A71DF5200D17A91 /* ViewController3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

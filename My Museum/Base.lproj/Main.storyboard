@@ -24,18 +24,101 @@
                                     <segue destination="hvB-DT-dcp" kind="show" id="VZq-VI-8Vq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUZ-Fe-TGI">
+                                <rect key="frame" x="248" y="22" width="145" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="comment">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="exH-s5-HYj" kind="show" id="D5c-vj-FOT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="commentBtn" destination="FUZ-Fe-TGI" id="p2w-gJ-4bG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="59" y="164"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller3-->
+        <scene sceneID="Ydg-sA-Qfk">
+            <objects>
+                <viewController id="exH-s5-HYj" customClass="ViewController3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XUV-AL-1LN"/>
+                        <viewControllerLayoutGuide type="bottom" id="GkF-F6-LqW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lm4-mF-cLe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFQ-eN-XYf">
+                                <rect key="frame" x="177" y="445" width="102" height="30"/>
+                                <state key="normal" title="highlight">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tJ3-gZ-kgN">
+                                <rect key="frame" x="170" y="292" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8r-9o-Beb">
+                                <rect key="frame" x="302" y="445" width="99" height="30"/>
+                                <state key="normal" title="unhighlight">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Leave us a comment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2p-bw-1pc">
+                                <rect key="frame" x="170" y="51" width="160" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Leave a comment..." translatesAutoresizingMaskIntoConstraints="NO" id="rEB-mN-Ll4">
+                                <rect key="frame" x="170" y="106" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 words left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glV-kk-ZOR">
+                                <rect key="frame" x="132" y="77" width="198" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="tJ3-gZ-kgN" secondAttribute="centerX" id="Bfu-vH-kl2"/>
+                            <constraint firstAttribute="centerX" secondItem="EFQ-eN-XYf" secondAttribute="centerX" id="NgB-19-CEv"/>
+                            <constraint firstAttribute="centerX" secondItem="u2p-bw-1pc" secondAttribute="centerX" id="aaC-2r-8nS"/>
+                            <constraint firstAttribute="centerX" secondItem="rEB-mN-Ll4" secondAttribute="centerX" id="kiZ-Y9-DZN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="commentTextView" destination="rEB-mN-Ll4" id="UTW-Pv-agG"/>
+                        <outlet property="highlightBtn" destination="EFQ-eN-XYf" id="lgp-oA-hBL"/>
+                        <outlet property="toHighlight" destination="tJ3-gZ-kgN" id="2MU-O6-t8v"/>
+                        <outlet property="unHighlightBtn" destination="a8r-9o-Beb" id="Ep2-2x-xKf"/>
+                        <outlet property="wordCounterLabel" destination="glV-kk-ZOR" id="gGI-TD-PRK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aDZ-oS-kHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="59" y="902"/>
+        </scene>
+        <!--View Controller2-->
         <scene sceneID="E1h-cb-gq8">
             <objects>
-                <viewController id="hvB-DT-dcp" sceneMemberID="viewController">
+                <viewController id="hvB-DT-dcp" customClass="ViewController2" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="isC-VN-9BP"/>
                         <viewControllerLayoutGuide type="bottom" id="nuU-oa-6Fa"/>
@@ -54,22 +137,63 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="oMk-kF-GfT"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rk7-MI-ogZ">
-                                <rect key="frame" x="0.0" y="50" width="400" height="400"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="「清　翠玉白菜」是中華民國在臺灣的國立故宮博物院所珍藏的玉器雕刻，長18.7公分，寬9.1公分，厚5.07公分，利用翠玉天然的色澤雕出白菜的形狀。" translatesAutoresizingMaskIntoConstraints="NO" id="aQF-GP-3AU">
-                                <rect key="frame" x="16" y="452" width="350" height="300"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="「清　翠玉白菜」是中華民國在臺灣的國立故宮博物院所珍藏的玉器雕刻，長18.7公分，寬9.1公分，厚5.07公分，利用翠玉天然的色澤雕出白菜的形狀。" translatesAutoresizingMaskIntoConstraints="NO" id="aQF-GP-3AU">
+                                <rect key="frame" x="119" y="425" width="350" height="130"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="white.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rk7-MI-ogZ">
+                                <rect key="frame" x="144" y="77" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="1Ba-dH-rhn"/>
+                                    <constraint firstAttribute="width" constant="300" id="ALa-sr-mLx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="75S-O6-Es0">
+                                <rect key="frame" x="228" y="379" width="145" height="38"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="oeq-sy-jJU" kind="show" id="jLx-D3-oBL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="aQF-GP-3AU" secondAttribute="centerX" id="1WP-iG-hMK"/>
+                            <constraint firstAttribute="centerX" secondItem="Rk7-MI-ogZ" secondAttribute="centerX" id="4W7-lW-DOO"/>
+                            <constraint firstItem="aQF-GP-3AU" firstAttribute="top" secondItem="Rk7-MI-ogZ" secondAttribute="bottom" constant="60" id="G2q-YH-luf"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Rk7-MI-ogZ" id="XxW-ML-17F"/>
+                        <outlet property="myButton" destination="75S-O6-Es0" id="jRS-SU-can"/>
+                        <outlet property="textView" destination="aQF-GP-3AU" id="Ru5-vI-YCB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FHD-NQ-8Qa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="827" y="136"/>
+            <point key="canvasLocation" x="787" y="157"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vkI-cd-aNk">
+            <objects>
+                <viewController id="oeq-sy-jJU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ezB-p9-HJD"/>
+                        <viewControllerLayoutGuide type="bottom" id="JYh-ao-b89"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YyH-SQ-vCF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Gc-bD-HRR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="787" y="895"/>
         </scene>
     </scenes>
     <resources>
