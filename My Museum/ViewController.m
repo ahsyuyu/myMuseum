@@ -26,6 +26,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self.view setBackgroundColor:[UIColor purpleColor]];
+    
+    CIImage *blurImage = [[UIImageView alloc] initWithFrame:CGRectMake((self.view.frame.size.width-IMG_SIZE)/2, BOUNDARY_TOP, IMG_SIZE, IMG_SIZE)];
+    
+    
+    
     UIImageView *myImageView = [[UIImageView alloc] initWithFrame:CGRectMake((self.view.frame.size.width-IMG_SIZE)/2, BOUNDARY_TOP, IMG_SIZE, IMG_SIZE)];
     
     NSLog(@"image size is %f %f",self.view.frame.size.width, self.view.frame.size.height);
@@ -34,6 +39,7 @@
     myImageView.layer.cornerRadius = IMG_SIZE/2;
     myImageView.layer.borderColor = [UIColor whiteColor].CGColor;
     myImageView.layer.borderWidth = 1.0;
+    
     //myImageView.frame.origin.y == BOUNDARY_TOP
     //myImageView.frame.origin.height == IMG_SIZE
 

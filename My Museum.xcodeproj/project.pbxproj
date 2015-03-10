@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		9A0E0FB51A71DF5200D17A91 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0E0FB41A71DF5200D17A91 /* ViewController3.m */; };
 		9A3A08321A70AEDD00E6AA53 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A08311A70AEDD00E6AA53 /* ViewController2.m */; };
+		9A4E6F521AAE969A007D45DA /* bowl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E6F4D1AAE969A007D45DA /* bowl.jpg */; };
+		9A4E6F531AAE969A007D45DA /* box.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E6F4E1AAE969A007D45DA /* box.jpg */; };
+		9A4E6F541AAE969A007D45DA /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E6F4F1AAE969A007D45DA /* green.jpg */; };
+		9A4E6F551AAE969A007D45DA /* meat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E6F501AAE969A007D45DA /* meat.jpg */; };
+		9A4E6F581AAE98A6007D45DA /* boat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A4E6F571AAE98A6007D45DA /* boat.jpg */; };
+		9A4E6F5B1AAEBCAC007D45DA /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4E6F5A1AAEBCAC007D45DA /* GreenViewController.m */; };
+		9A5FC11A1A7D0EAF00A4649B /* myTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FC1191A7D0EAF00A4649B /* myTableViewCell.m */; };
+		9A5FC1201A7D130F00A4649B /* myTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FC11F1A7D130F00A4649B /* myTable.m */; };
 		9A60C9B61A68DCF600532FF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9B51A68DCF600532FF3 /* main.m */; };
 		9A60C9B91A68DCF600532FF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9B81A68DCF600532FF3 /* AppDelegate.m */; };
 		9A60C9BC1A68DCF600532FF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9BB1A68DCF600532FF3 /* ViewController.m */; };
@@ -17,6 +25,7 @@
 		9A60C9C41A68DCF600532FF3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A60C9C21A68DCF600532FF3 /* LaunchScreen.xib */; };
 		9A60C9D01A68DCF600532FF3 /* My_MuseumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60C9CF1A68DCF600532FF3 /* My_MuseumTests.m */; };
 		9A8BCBE11A6B7C4C00138DC1 /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A8BCBE01A6B7C4C00138DC1 /* white.png */; };
+		9AD141BE1A7B5F0A00114064 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AD141BD1A7B5F0A00114064 /* d.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,17 @@
 		9A0E0FB41A71DF5200D17A91 /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
 		9A3A08301A70AEDD00E6AA53 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		9A3A08311A70AEDD00E6AA53 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		9A4E6F4D1AAE969A007D45DA /* bowl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bowl.jpg; sourceTree = "<group>"; };
+		9A4E6F4E1AAE969A007D45DA /* box.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = box.jpg; sourceTree = "<group>"; };
+		9A4E6F4F1AAE969A007D45DA /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+		9A4E6F501AAE969A007D45DA /* meat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meat.jpg; sourceTree = "<group>"; };
+		9A4E6F571AAE98A6007D45DA /* boat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boat.jpg; sourceTree = "<group>"; };
+		9A4E6F591AAEBCAC007D45DA /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		9A4E6F5A1AAEBCAC007D45DA /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		9A5FC1181A7D0EAF00A4649B /* myTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTableViewCell.h; sourceTree = "<group>"; };
+		9A5FC1191A7D0EAF00A4649B /* myTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTableViewCell.m; sourceTree = "<group>"; };
+		9A5FC11E1A7D130F00A4649B /* myTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myTable.h; sourceTree = "<group>"; };
+		9A5FC11F1A7D130F00A4649B /* myTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myTable.m; sourceTree = "<group>"; };
 		9A60C9B01A68DCF600532FF3 /* My Museum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Museum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A60C9B41A68DCF600532FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A60C9B51A68DCF600532FF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +68,7 @@
 		9A60C9CE1A68DCF600532FF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A60C9CF1A68DCF600532FF3 /* My_MuseumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_MuseumTests.m; sourceTree = "<group>"; };
 		9A8BCBE01A6B7C4C00138DC1 /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		9AD141BD1A7B5F0A00114064 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +115,21 @@
 				9A60C9BA1A68DCF600532FF3 /* ViewController.h */,
 				9A60C9BB1A68DCF600532FF3 /* ViewController.m */,
 				9A3A08301A70AEDD00E6AA53 /* ViewController2.h */,
+				9A5FC11E1A7D130F00A4649B /* myTable.h */,
+				9A5FC11F1A7D130F00A4649B /* myTable.m */,
+				9A5FC1181A7D0EAF00A4649B /* myTableViewCell.h */,
+				9A5FC1191A7D0EAF00A4649B /* myTableViewCell.m */,
 				9A3A08311A70AEDD00E6AA53 /* ViewController2.m */,
 				9A0E0FB31A71DF5200D17A91 /* ViewController3.h */,
 				9A0E0FB41A71DF5200D17A91 /* ViewController3.m */,
+				9AD141BD1A7B5F0A00114064 /* d.png */,
+				9A4E6F4D1AAE969A007D45DA /* bowl.jpg */,
+				9A4E6F4E1AAE969A007D45DA /* box.jpg */,
+				9A4E6F501AAE969A007D45DA /* meat.jpg */,
+				9A4E6F4F1AAE969A007D45DA /* green.jpg */,
+				9A4E6F571AAE98A6007D45DA /* boat.jpg */,
+				9A4E6F591AAEBCAC007D45DA /* GreenViewController.h */,
+				9A4E6F5A1AAEBCAC007D45DA /* GreenViewController.m */,
 				9A60C9BD1A68DCF600532FF3 /* Main.storyboard */,
 				9A60C9C01A68DCF600532FF3 /* Images.xcassets */,
 				9A60C9C21A68DCF600532FF3 /* LaunchScreen.xib */,
@@ -181,6 +214,7 @@
 				TargetAttributes = {
 					9A60C9AF1A68DCF600532FF3 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = S85G2288V4;
 					};
 					9A60C9C81A68DCF600532FF3 = {
 						CreatedOnToolsVersion = 6.1;
@@ -213,8 +247,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A60C9BF1A68DCF600532FF3 /* Main.storyboard in Resources */,
+				9A4E6F541AAE969A007D45DA /* green.jpg in Resources */,
+				9A4E6F521AAE969A007D45DA /* bowl.jpg in Resources */,
 				9A8BCBE11A6B7C4C00138DC1 /* white.png in Resources */,
+				9A4E6F551AAE969A007D45DA /* meat.jpg in Resources */,
+				9AD141BE1A7B5F0A00114064 /* d.png in Resources */,
 				9A60C9C41A68DCF600532FF3 /* LaunchScreen.xib in Resources */,
+				9A4E6F531AAE969A007D45DA /* box.jpg in Resources */,
+				9A4E6F581AAE98A6007D45DA /* boat.jpg in Resources */,
 				9A60C9C11A68DCF600532FF3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,9 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4E6F5B1AAEBCAC007D45DA /* GreenViewController.m in Sources */,
 				9A60C9BC1A68DCF600532FF3 /* ViewController.m in Sources */,
 				9A3A08321A70AEDD00E6AA53 /* ViewController2.m in Sources */,
+				9A5FC11A1A7D0EAF00A4649B /* myTableViewCell.m in Sources */,
 				9A60C9B91A68DCF600532FF3 /* AppDelegate.m in Sources */,
+				9A5FC1201A7D130F00A4649B /* myTable.m in Sources */,
 				9A60C9B61A68DCF600532FF3 /* main.m in Sources */,
 				9A0E0FB51A71DF5200D17A91 /* ViewController3.m in Sources */,
 			);

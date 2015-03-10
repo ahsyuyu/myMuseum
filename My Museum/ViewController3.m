@@ -67,7 +67,7 @@
 
 - (void)unHighlighted{
     _toHighlight.textColor = [UIColor blackColor];
-//    _toHighlight.font = [UIFont boldSystemFontOfSize:14];
+    _toHighlight.font = [UIFont systemFontOfSize:14];
 }
 
 - (void)textViewDidBeginEditing:(UITextView *)textView{
@@ -75,13 +75,20 @@
 }
 
 - (void)textViewDidChange:(UITextView *)textView{
-    int len =textView.text.length;
-    _wordCounterLabel.text=[NSString stringWithFormat:@"%i words left",10-len];
-    NSLog(@"%i", len );
+    NSUInteger len =textView.text.length;
+    _wordCounterLabel.text=[NSString stringWithFormat:@"%lu character left",10-len];
+    NSLog(@"%lu", (unsigned long)len );
     if(len >= 10){
-        textView.editable = NO;
+//        textView.editable = NO;
+        [textView resignFirstResponder];
+        textView.textColor =[UIColor redColor];
     }
 }
+
+- (void)textViewDidEndEditing:(UITextView *)textView{
+    
+}
+
 
 /*
 #pragma mark - Navigation
