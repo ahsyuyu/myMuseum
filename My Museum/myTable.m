@@ -9,7 +9,8 @@
 #import "myTable.h"
 #import "myTableViewCell.h"
 #import "GreenViewController.h"
-#import "ViewController2.h"
+#import "ViewController.h"
+#import "GreenViewController.h"
 
 @interface myTable () <UITableViewDataSource, UITableViewDelegate>
 //1. 加入protocol
@@ -70,12 +71,13 @@
 }
 
 -(void)tableView:(UITableView *)tableView didHighlightRowAtIndexPath:(NSIndexPath *)indexPath{
-    NSLog(@"i am highlighted");
+    //NSLog(@"i am highlighted");
 }
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    NSLog(@"%ld",(long)indexPath.row);
     //主要工作區
-    ViewController2 *vc2 = [[ViewController2 alloc] init];
-    [self presentationController: vc2 animated: YES completion:nil];
+    ViewController *vc = [[ViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 //--------------------------------
 //-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{

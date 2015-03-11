@@ -17,13 +17,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIButton *menuBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    menuBtn.center = CGPointMake(0, 15);
+    [menuBtn setTitle:@"MENU" forState:UIControlStateNormal];
+    menuBtn.titleLabel.font = [UIFont systemFontOfSize: 12];
+    menuBtn.titleLabel.textColor = [UIColor blackColor];
+    [menuBtn sizeToFit];
+    
+    UITextView *myTextView = [[UITextView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height/2, 300, 300)];
+    myTextView.text = @"翠玉白菜";
+    
+    [self.view addSubview:menuBtn];
+    [self.view addSubview:myTextView];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)buttonPressed:(UIButton *)menuBtn {
+    NSLog(@"Button Pressed");
+}
 /*
 #pragma mark - Navigation
 
